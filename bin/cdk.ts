@@ -5,3 +5,4 @@ import { CdkStack } from '../lib/cdk-stack';
 
 const app = new cdk.App();
 new CdkStack(app, 'CdkStack');
+new WebApplicationStack(app, "MythicalMysfits-Website");
